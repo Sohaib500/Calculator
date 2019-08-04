@@ -1,0 +1,50 @@
+body,
+.blurred-bg-container .content h1 {
+  margin: 0;
+}
+
+.blurred-bg-container {
+  background: url(backgrounds/27.jpg);
+  height: 100vh; /* =h */
+  background-size: cover;
+  position: center center;
+  background-repeat: no repeat
+  
+ 
+ 
+}
+
+.blurred-bg-container .content {
+  background: inherit;
+  width: 25%; /* =cw */
+  height: auto; /* =ch */
+  border-radius: 8px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%; /* =ct */
+  left: 50%; /* =cl */
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.blurred-bg-container .text {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  height: 100%;
+  box-sizing: border-box; /* so that padding is included in height */
+}
+
+.blurred-bg-container .blur {
+  background: inherit;
+  height: 100vh; /* h */
+  width: 166.667%; /* (100/cw) x 100% */
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(
+    -20%,
+    -30%
+  ); /* - [cl - (cw/2)] % ,  -[ct - (ch/2)] % */
+  filter: blur(22px);
+  z-index: -1;
+}

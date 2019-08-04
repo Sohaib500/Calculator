@@ -1,0 +1,58 @@
+.res_box
+{
+    background-color: transparent !important;
+    min-height: 40px;
+    line-height: 40px !important; 
+    text-align: right;
+    vertical-align: middle;
+    color: firebrick !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+
+}
+
+.casio_txt
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: darkslategray;
+}
+
+
+.num
+{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;            
+    min-height: 45px !important;
+
+    /* Line Height and Div Width are same to text or content center in Div */
+}
+
+.input
+{
+    font-weight: normal !important;
+    color: black !important;
+    font-size: 17px
+    
+}
+
+.btn_hover:hover
+{
+    background-color: #F1A318;
+    cursor: pointer;
+    color: black;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    
+}
